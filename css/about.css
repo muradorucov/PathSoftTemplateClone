@@ -1,0 +1,94 @@
+.margin-auto-ab {
+  margin: 0 auto;
+}
+/*  crumbs section start  */
+#crumbs {
+  width: 100%;
+  background-color: #f0f4f8;
+}
+.crumbs-bread {
+  padding: 18px 0;
+}
+.crumbs-info {
+  font-size: 14px;
+}
+.crumbs-home a {
+  color: #63636b;
+}
+.crumbs-home a:hover {
+  text-decoration: underline;
+}
+.crumbs-info i {
+  color: #2c7ae7;
+  padding: 0px 7px;
+}
+.crumbs-about {
+  color: #2c7ae7;
+}
+/* crumbs section end  */
+
+/* more-info-about-us section start */
+.about-item {
+  width: 99%;
+}
+.about-img {
+  height: 450px;
+  border: 1px solid #d4d4e1;
+  background-color: #f0f4f8;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.about-item h2 {
+  font-size: 2rem;
+  color: #303036;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-item h3 {
+  font-size: 1.75rem;
+  color: #303036;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-item p {
+  color: #303036;
+  padding: 5px 0px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Istok Web" sans-serif;
+}
+/* more-info-about-us section end */
+
+/* customers section start */
+#customers {
+  width: 100%;
+}
+.customers-item {
+  padding: 16px;
+  height: 180px;
+  border: #c8c8d1 solid 1px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #303036;
+  transition: all 0.25s;
+}
+.customers-item:hover {
+  box-shadow: 0.125rem 0.25rem 1.25rem 0.3875rem rgb(45 45 45 / 13%);
+  transition: all 0.25s;
+  border: white solid 1px;
+}
+.customers-item img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+/* customers section end */

@@ -1,0 +1,25 @@
+/*  crumbs section start  */
+#crumbs {
+  background-color: #f0f4f8;
+}
+.crumbs-bread {
+  padding: 18px 0;
+}
+.crumbs-info {
+  font-size: 14px;
+  margin: 0 30px;
+}
+.crumbs-home a {
+  color: #63636b;
+}
+.crumbs-home a:hover {
+  text-decoration: underline;
+}
+.crumbs-info i {
+  color: #2c7ae7;
+  padding: 0px 7px;
+}
+.crumbs-about {
+  color: #2c7ae7;
+}
+/* crumbs section end  */

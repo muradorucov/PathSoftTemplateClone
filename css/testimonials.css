@@ -1,0 +1,26 @@
+.testimonalssubmit {
+  width: 100% !important;
+  margin-right: 0;
+  font-size: 20px;
+}
+.feedback h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #3b3b44;
+}
+
+.formfile {
+  width: 100%;
+  font-weight: 400;
+  padding: 12px 10px;
+  margin-bottom: 20px;
+  border-radius: 0.375rem;
+  border: 1px solid #d4d4e1;
+  outline: 0;
+}
+.formfile:focus {
+  border: solid 1px #568ad3;
+}
+.client {
+  background-color: #f0f4f8;
+}

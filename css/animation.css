@@ -1,0 +1,52 @@
+.services-box,
+.reason-scroll,
+.scroll-counter,
+.teambox,
+.clientbox,
+.newsbox {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: all 1s ease-in-out;
+}
+.servicesactive,
+.reasonactive,
+.activecounter,
+.teamboxactive,
+.clientboxactive,
+.newsboxactive {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.animation {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.animatiactive {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.gallery-item:hover .image-animation {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transition: all 1s ease-in-out;
+}
+
+.image-animation {
+  transition: all 1s ease-in-out;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
